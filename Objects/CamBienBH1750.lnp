@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\objects\app_i2c.o"
+".\objects\app_uart.o"
+".\objects\bh1750.o"
+".\objects\main.o"
+".\objects\misc.o"
+".\objects\stm32f10x_i2c.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_usart.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+".\objects\stm32f10x_exti.o"
+--strict --scatter ".\Objects\CamBienBH1750.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\CamBienBH1750.map" -o .\Objects\CamBienBH1750.axf
