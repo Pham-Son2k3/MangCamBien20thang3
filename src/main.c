@@ -2,7 +2,7 @@
 #include "app_i2c.h"
 #include "bh1750.h"
 #include "app_uart.h"
-#include "timer.h" // Ð?m b?o file này t?n t?i
+#include "timer.h" 
 #include <stdio.h>
 
 int main(void) {
