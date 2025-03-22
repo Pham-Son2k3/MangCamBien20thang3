@@ -1,5 +1,5 @@
 #include "timer.h"
-#include <stm32f10x_tim.h> // Thêm d? dùng TIM
+#include <stm32f10x_tim.h> 
 
 void timer2_Init(void) {
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
