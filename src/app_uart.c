@@ -1,6 +1,6 @@
 #include "app_uart.h"
-#include <stm32f10x_gpio.h> // Thêm cho GPIO
-#include <stm32f10x_usart.h> // Thêm cho USART
+#include <stm32f10x_gpio.h> 
+#include <stm32f10x_usart.h>
 
 void UART_Config(void) {
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1 | RCC_APB2Periph_GPIOA, ENABLE);
