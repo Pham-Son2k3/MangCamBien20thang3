@@ -5,6 +5,6 @@
 
 void UART_Config(void);
 void UART_SendChar(char c);
-void UART_SendString(const char *str); // S?a thành const char *
+void UART_SendString(const char *str); 
 
 #endif
